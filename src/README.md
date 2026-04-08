@@ -7,7 +7,7 @@ This directory contains the modernized, production-grade implementation of the P
 Run the main orchestrator from the project root:
 
 ```bash
-PYTHONPATH=. uv run python src/main.py
+uv run python src/main.py
 ```
 
 ## Architecture Overview
