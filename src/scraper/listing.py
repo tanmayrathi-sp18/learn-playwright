@@ -9,7 +9,7 @@ easy to modify if the layout of the listing gallery changes.
 from urllib.parse import urljoin
 from typing import List
 from playwright.async_api import Page
-from src.utils.config import LISTING_SELECTORS
+from utils.config import LISTING_SELECTORS
 
 
 async def extract_listing_items(page: Page) -> List[dict]:

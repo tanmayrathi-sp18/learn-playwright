@@ -6,7 +6,7 @@ Separating this keeps the main orchestrator cleaner.
 """
 
 from playwright.async_api import Page, TimeoutError
-from src.utils.config import LISTING_SELECTORS
+from utils.config import LISTING_SELECTORS
 
 
 async def get_next_page_url(page: Page) -> str:

@@ -7,7 +7,7 @@ even if we find a book URL directly, without a listing page.
 """
 
 from playwright.async_api import Page
-from src.utils.config import DETAIL_SELECTORS
+from utils.config import DETAIL_SELECTORS
 
 
 async def extract_book_details(page: Page) -> dict:

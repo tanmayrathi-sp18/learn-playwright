@@ -10,12 +10,12 @@ import asyncio
 import json
 import os
 from urllib.parse import urljoin
-from src.browser import BrowserManager
-from src.scraper.listing import extract_listing_items
-from src.scraper.detail import extract_book_details
-from src.utils.navigation import get_next_page_url, navigate_back_safely
-from src.utils.config import BASE_URL
-from src.models.item import BookItem
+from browser import BrowserManager
+from scraper.listing import extract_listing_items
+from scraper.detail import extract_book_details
+from utils.navigation import get_next_page_url, navigate_back_safely
+from utils.config import BASE_URL
+from models.item import BookItem
 
 
 async def run_scraper(target_book_count: int = 100):
